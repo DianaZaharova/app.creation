@@ -1,0 +1,223 @@
+/* MENU */
+@media only screen and (min-width: 600px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .nav {
+    display: none;
+  }
+}
+
+/* 375-400px MOBILE */
+@media only screen and (min-width: 100px) and (max-width: 400px) {
+  .wrapper {
+    width: 87%;
+  }
+
+  .header {
+    margin-bottom: 4vw;
+  }
+
+  .logo {
+    padding: 0 0 10.667vw 0;
+    color: transparent;
+  }
+
+  .main {
+    padding: 69.8vw 8% 11.467vw 8.133vw;
+    background: top center no-repeat url(img/img.svg);
+    background-size: 88% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__title {
+    font: 8vw/10.667vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 8.533vw 0;
+    text-align: center;
+  }
+
+  .main__text {
+    font: 4.267vw/5.067vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 6.667vw 0;
+    text-align: center;
+    width: 66.292vw;
+  }
+
+  .main__btn {
+    font: 500 3.733vw/4.267vw robotomedium, arial, helvetica, sans-serif;
+    padding: 3.5vw 5.3vw;
+  }
+
+  .logo__circle {
+    bottom: 7%;
+  }
+
+  .logo__circle_color_blue {
+    top: 64%;
+  }
+
+  .logo__circle_color_dark-blue {
+    animation: none;
+  }
+}
+
+/*  401-600px  */
+@media only screen and (min-width: 401px) and (max-width: 600px) {
+  .logo {
+    color: transparent;
+  }
+
+  .wrapper {
+    width: 87%;
+  }
+
+  .header {
+    margin-bottom: 4vw;
+  }
+
+  .mobile-nav__list {
+    margin: 0;
+  }
+
+  .main {
+    padding: 69.8vw 8% 11.467vw 8.133vw;
+    background: top center no-repeat url(img/img.svg);
+    background-size: 88% auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main__title {
+    font: 8vw/10.667vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 8.533vw 0;
+    text-align: center;
+  }
+
+  .main__text {
+    font: 4.267vw/5.067vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 6.667vw 0;
+    text-align: center;
+    width: 66.292vw;
+  }
+
+  .main__btn {
+    font: 500 3.733vw/4.267vw robotomedium, arial, helvetica, sans-serif;
+    padding: 3.5vw 5.3vw;
+  }
+}
+
+/* 601-1499px */
+@media only screen and (min-width: 601px) and (max-width: 1499px) {
+  .wrapper {
+    width: 91%;
+  }
+
+  .header {
+    margin-bottom: 8.3vw;
+  }
+
+  .nav {
+    margin-top: 5px;
+  }
+
+  .nav__item {
+    margin-right: 2.051vw;
+    font: 500 1.39vw/1.5vw robotobold, arial, helvetica, sans-serif;
+  }
+
+  .logo {
+    padding: 40px 0 40px 46px;
+    font: bold 26px/32px pt_serif, arial, helvetica, sans-serif;
+  }
+
+  .main {
+    padding: 1.385vw 58% 13.448vw 0;
+    background-size: 55% auto;
+  }
+
+  .main__title {
+    font: 4.883vw/6.445vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 3.927vw 0;
+  }
+
+  .main__text {
+    font: 1.758vw/2.051vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 5.5vw 0;
+    width: 35.292vw;
+  }
+
+  .main__btn {
+    font: 500 1.367vw/1.563vw robotomedium, arial, helvetica, sans-serif;
+    padding: 1.27vw 2vw;
+  }
+}
+
+/* 1366-1500px */
+@media only screen and (min-width: 1366px) and (max-width: 1500px) {
+  .wrapper {
+    width: 67.5%;
+  }
+
+  .header {
+    margin-bottom: 6.076vw;
+  }
+
+  .nav__item {
+    font: 500 1.025vw/1.171vw robotobold, arial, helvetica, sans-serif;
+    margin-right: 1.611vw;
+  }
+
+  .logo {
+    padding: 40px 0 40px 45px;
+  }
+
+  .main {
+    padding: 1.385vw 57% 13.448vw 0;
+    background-size: 55% auto;
+  }
+
+  .main__title {
+    font: 3.66vw/4.832vw pt_serifbold, arial, helvetica, sans-serif;
+    margin: 0 0 2.635vw 0;
+  }
+
+  .main__text {
+    font: 1.318vw/1.537vw robotomedium, arial, helvetica, sans-serif;
+    margin: 0 0 4.1vw 0;
+    width: 27.292vw;
+  }
+
+  .main__btn {
+    font: 500 1.025vw/1.171vw robotomedium, arial, helvetica, sans-serif;
+    padding: 0.952vw 1.537vw;
+  }
+}
+
+/* 1920px */
+@media only screen and (min-width: 1920px) {
+  .logo {
+    padding: 42px 0 40px 51px;
+  }
+
+  .nav__item {
+    margin-right: 23px;
+  }
+
+  .nav__item:last-child {
+    margin-right: 9px;
+  }
+
+  .header {
+    margin-bottom: 6.771vw;
+  }
+
+  .main {
+    padding: 3.75vw 63% 12.448vw 0;
+  }
+}
